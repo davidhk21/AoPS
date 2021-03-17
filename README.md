@@ -53,7 +53,7 @@ After the recursion has been completed, the result variable is returned with the
 
 ## Time & Space Complexity
 Time: O(2^N)
-In order to check all of the different paths, we need to traverse both left and right from a given point in the pyramid. Because we are traversing two different paths for each node, this will result in a O(2^N) Time Complexity.
+- In order to check all of the different paths, we need to traverse both left and right from a given point in the pyramid. Because we are traversing two different paths for each node, this will result in a O(2^N) Time Complexity.
 
 Space: O(H) where H is the height of the pyramid.
-The Space Complexity comes from the call stack in executing the recursion. The call stack will go up to the height of the pyramid because the base case is handled so that the recursion backtracks when reaching the bottom level. As a result, Space Complexity would be O(H).
+- The Space Complexity comes from the call stack in executing the recursion. The call stack will go up to the height of the pyramid because the base case is handled so that the recursion backtracks when reaching the bottom level. As a result, Space Complexity would be O(H).
