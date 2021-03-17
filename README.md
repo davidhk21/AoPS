@@ -10,6 +10,7 @@ The solver can be found in the PyramidDescent.js file.
 * [Given Information](#given-information)
 * [Assumptions](#assumptions)
 * [Approach](#approach)
+* [Time & Space Complexity](#time-and-space-complexity)
 
 ## Set Up
 1. Fork the repository
@@ -49,3 +50,10 @@ In the inner recursion function, I first set up a base case, checking if I was o
 If not at the bottom level, I increment the level, and initialize a new product and string path for both left and right traversal and continue the recursion with the new arguments only if the result has not already been found.
 
 After the recursion has been completed, the result variable is returned with the correct path.
+
+## Time & Space Complexity
+Time: O(2^N)
+In order to check all of the different paths, we need to traverse both left and right from a given point in the pyramid. Because we are traversing two different paths for each node, this will result in a O(2^N) Time Complexity.
+
+Space: O(H) where H is the height of the pyramid.
+The Space Complexity comes from the call stack in executing the recursion. The call stack will go up to the height of the pyramid because the base case is handled so that the recursion backtracks when reaching the bottom level. As a result, Space Complexity would be O(H).
