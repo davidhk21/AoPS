@@ -4,9 +4,16 @@ This repo is for a programming puzzle given by AoPS (Art of Problem Solving).
 
 The solver can be found in the PyramidDescent.js file.
 
+## Table of Contents
+* [Set Up](#set-up)
+* [Testing](#testing)
+* [Given Information](#given-information)
+* [Assumptions](#assumptions)
+* [Approach](#approach)
+
 ## Set Up
 1. Fork the repository
-2. Install the dependencies (just jest in this project)
+2. Install the dependencies (only Jest)
 ```
 npm install
 ```
