@@ -2,7 +2,7 @@
 
 This repo is for a programming puzzle given by AoPS (Art of Problem Solving).
 
-If you have received these files through email, please rename the filename extension from .jss to .js. This has been done due to security issues sending executable code through email.
+If you have received these files through email, please rename the filename extension from .txt to .js. This has been done due to security issues sending executable code through email.
 
 The solver can be found in the PyramidDescent.js file.
 
